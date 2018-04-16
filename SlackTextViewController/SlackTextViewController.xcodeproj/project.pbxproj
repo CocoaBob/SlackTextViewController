@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45D7D7EE2083B7C500552D4D /* NSString+SLKAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D7D7EC2083B7C500552D4D /* NSString+SLKAdditions.h */; };
+		45D7D7EF2083B7C500552D4D /* NSString+SLKAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D7D7ED2083B7C500552D4D /* NSString+SLKAdditions.m */; };
 		F52253811CBE2F85002EECA9 /* SLKInputAccessoryView.h in Headers */ = {isa = PBXBuildFile; fileRef = F522536B1CBE2F85002EECA9 /* SLKInputAccessoryView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F52253821CBE2F85002EECA9 /* SLKInputAccessoryView.m in Sources */ = {isa = PBXBuildFile; fileRef = F522536C1CBE2F85002EECA9 /* SLKInputAccessoryView.m */; };
 		F52253831CBE2F85002EECA9 /* SLKTextInput.h in Headers */ = {isa = PBXBuildFile; fileRef = F522536D1CBE2F85002EECA9 /* SLKTextInput.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -45,6 +47,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45D7D7EC2083B7C500552D4D /* NSString+SLKAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+SLKAdditions.h"; sourceTree = "<group>"; };
+		45D7D7ED2083B7C500552D4D /* NSString+SLKAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+SLKAdditions.m"; sourceTree = "<group>"; };
 		F522536B1CBE2F85002EECA9 /* SLKInputAccessoryView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKInputAccessoryView.h; sourceTree = "<group>"; };
 		F522536C1CBE2F85002EECA9 /* SLKInputAccessoryView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SLKInputAccessoryView.m; sourceTree = "<group>"; };
 		F522536D1CBE2F85002EECA9 /* SLKTextInput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SLKTextInput.h; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				F522537E1CBE2F85002EECA9 /* UIScrollView+SLKAdditions.m */,
 				F522537F1CBE2F85002EECA9 /* UIView+SLKAdditions.h */,
 				F52253801CBE2F85002EECA9 /* UIView+SLKAdditions.m */,
+				45D7D7EC2083B7C500552D4D /* NSString+SLKAdditions.h */,
+				45D7D7ED2083B7C500552D4D /* NSString+SLKAdditions.m */,
 			);
 			name = Source;
 			path = ../../Source;
@@ -173,6 +179,7 @@
 				F52253831CBE2F85002EECA9 /* SLKTextInput.h in Headers */,
 				F52253871CBE2F85002EECA9 /* SLKTextView.h in Headers */,
 				F522538E1CBE2F85002EECA9 /* SLKTypingIndicatorView.h in Headers */,
+				45D7D7EE2083B7C500552D4D /* NSString+SLKAdditions.h in Headers */,
 				F52253901CBE2F85002EECA9 /* SLKUIConstants.h in Headers */,
 				F52253911CBE2F85002EECA9 /* UIResponder+SLKAdditions.h in Headers */,
 				F52253891CBE2F85002EECA9 /* SLKTextView+SLKAdditions.h in Headers */,
@@ -291,6 +298,7 @@
 				F52253961CBE2F85002EECA9 /* UIView+SLKAdditions.m in Sources */,
 				F522538C1CBE2F85002EECA9 /* SLKTextViewController.m in Sources */,
 				F52253821CBE2F85002EECA9 /* SLKInputAccessoryView.m in Sources */,
+				45D7D7EF2083B7C500552D4D /* NSString+SLKAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
